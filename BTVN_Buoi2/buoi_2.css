@@ -1,0 +1,115 @@
+
+
+.me{
+    width: 100%;
+}
+.menu{
+    width: 99%;
+    height: 50px;
+    background: pink;
+    border: solid rgb(196, 195, 195) 10px;
+}
+.body{
+    width: 100%;
+    display: flex;
+}
+.left{
+    width: 55%;
+    height: 460px;
+}
+.left1{
+    height: 230px;
+    background: rgba(26, 206, 146, 0.438);
+    border-left: solid rgb(196, 195, 195) 10px;
+    border-right: solid rgb(196, 195, 195) 10px;
+    border-bottom: solid rgb(196, 195, 195) 10px;
+}
+.left1-in{
+    width: 100%;
+    display: flex;
+}
+.left-con1{
+    width: 50%;
+}
+.a{
+    height: 120px;
+    background: red;
+    border-left: solid rgb(196, 195, 195) 10px;
+    border-right: solid rgb(196, 195, 195) 10px;
+}
+.b{
+    background: rgba(247, 118, 13, 0.904);
+    height: 130px;
+    border-left: solid rgb(196, 195, 195) 10px;
+    border-right: solid rgb(196, 195, 195) 10px;
+    border-top: solid rgb(196, 195, 195) 10px;
+}
+.left-con2{
+    width: 50%;
+    height: 260px;
+    background: rgb(211, 9, 211);
+    border-right: solid rgb(196, 195, 195) 10px;
+}
+.right{
+    width: 45%;
+    height: 500px;
+}
+.right-in{
+    display: flex;
+    width: 100%;
+}
+.c{
+    width: 80%;
+    background: purple;
+    height: 100px;
+}
+.d{
+    width: 20%;
+    background: rgb(14, 88, 14);
+    height: 100px;
+    border-left: solid rgb(196, 195, 195) 10px;
+    border-right: solid rgb(196, 195, 195) 10px;
+}
+.right-con1{
+    height: 80px;
+    background: yellow;
+    border-right: solid rgb(196, 195, 195) 10px;
+    border-top: solid rgb(196, 195, 195) 10px;
+    border-bottom: solid rgb(196, 195, 195) 10px;
+}
+
+.right-con2{
+    display: flex;
+    width: 100%;
+}
+.e{
+    height: 230px;
+    width: 33.3333333%;
+    background: rgb(4, 114, 141);
+    border-right: solid rgb(196, 195, 195) 12px;
+}
+.f{
+    height: 230px;
+    width: 33.3333333%;
+    background: red;
+    border-right: solid rgb(196, 195, 195) 12px;
+}
+.g{
+    height: 230px;
+    width: 33.3333333%;
+    background:  rgb(4, 114, 141);
+    border-right: solid rgb(196, 195, 195) 10px;
+}
+.right-con3{
+    height: 60px;
+    background: burlywood;
+    border-top: solid rgb(196, 195, 195) 10px;
+    border-right: solid rgb(196, 195, 195) 10px;
+
+}
+.footer{
+    height: 60px;
+    width: 99%;
+    background: black;
+    border: solid rgb(196, 195, 195) 10px;
+}
