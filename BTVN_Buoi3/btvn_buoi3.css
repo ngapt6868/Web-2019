@@ -1,0 +1,45 @@
+#ngang{
+  width: 100%;
+  background: black;
+  text-align: center;
+  color: white;
+}
+
+#ngang ul li{
+  display: inline-block;
+  height: 60px;
+  width: 170px;
+  line-height: 60px;
+  font-size: 25px;
+  position: relative;
+}
+
+.menucon{
+  display: none;
+}
+
+.menucon{
+  display: none;
+  background:rgb(231, 223, 223);
+  color: black;
+}
+
+#ngang ul li > .menucon{
+  position: absolute;
+  padding: 0;
+  cursor: pointer;
+}
+
+#ngang ul li:hover > .menucon{
+  display: block;
+}
+
+.menucon li > .menucon{
+  position: absolute;
+  top: 0;
+  left: 170px;
+}
+
+#ngang ul li:hover{
+  background:red;
+}
