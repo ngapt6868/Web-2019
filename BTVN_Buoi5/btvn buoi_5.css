@@ -1,0 +1,82 @@
+.dong1{
+    background:rgb(240, 234, 234) ;
+    height: 170px ;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+#dong2{
+    background: black;
+    color: white;
+    height:30px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+#dong2 ul li{
+    display: inline-block;
+    height: 30px;
+    width: 60px;
+    line-height: 60px;
+    font-size: 20px;
+}
+.dong3{
+    height:750px;
+    margin-top:10px;
+}
+.dong4{
+    float: left;
+    height:650px;
+    width:69%;
+    
+}
+.dong5{
+    float: left;
+    width:30%;
+    height:650px;
+    margin-left: 1%;
+    
+}
+.dong6{
+    background: rgb(240, 234, 234);
+    height: 350px;
+    margin-top:10px;
+    padding:10px;
+}
+.image{
+    background: rgb(179, 176, 176);
+    height:40%;
+    width:100%;
+    margin:0 auto;
+    padding-left: 10px;
+}
+.image li{
+    display: inline-block;
+    width: 60px;
+    line-height: 40px;
+    font-size: 16px;
+}
+.dong7{
+    background:rgb(240, 234, 234);
+    height:220px;
+    padding:10px;
+    margin-top:10px;
+}
+.dong8{
+    background: rgb(240, 234, 234);
+    height:300px;
+    padding:10px;
+    margin-top:10px;
+}
+.dong9{ 
+    background: rgb(240, 234, 234);
+    height:100px;
+    padding:10px;
+    margin-top:10px;
+}
+.dong10{
+    background: rgb(153, 153, 153);
+    height:50px;
+    margin-top:20px;
+    text-align: center;
+    padding:5px;
+}
