@@ -1,0 +1,146 @@
+body{
+    font-family: Arial, Tahoma;
+    font-size: 14px;
+}
+ 
+#main{
+    width: 100%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu{
+    height: 60px;
+    line-height: 60px;
+    background: white;
+    text-align: center;
+    top: 10px;
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+}
+.menu a{
+    color:black;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 95%;
+}
+.menu a:hover{
+    background: rgb(0, 183, 255);
+    text-decoration: none;
+}
+.button{
+    border: 1px solid;
+    padding: 7px 7px;
+    background: whitesmoke;
+    text-decoration: none;
+}
+#head{
+    height: 20%;
+    margin-bottom:5px;
+}
+#content{
+    width: 69%;
+    min-height: 70%;
+    float:left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+#footer{
+    width: 100%;
+    height: 100px;
+    clear: both;
+    background-color: black;
+    text-align: center;
+}
+.radius{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5%;
+    z-index: 1000;
+}    
+.image  {
+    width: 100%;
+  }
+  .main-content-center{
+      margin-top: -100px;
+  }
+.content-main {
+    height: 65%;
+    width: auto;
+    margin: 0 1%;
+    float: left;
+    margin-top: 100px
+}
+.main-row {
+    height: 400px;
+    margin-top: 0px;
+}
+.paragraph-1, .paragraph-2, form {
+    width: 60%;
+    height: 100%
+}
+.paragraph-1 {
+    float: right;
+}
+.paragraph-2, form {
+    float: left
+}
+.image {
+    height: auto;
+    width: 35%;
+}
+.image > img {
+    width: 100%;
+}
+.paragraph-1 ~ .image {
+    float: left;
+}
+.paragraph-2 ~ .image {
+    float: right
+}
+form {
+    font-weight: 600
+}
+span {
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    text-decoration: none;
+}
+#footer{
+    padding-top: 70px;
+}
+.paragraph-2 button{
+    background-color: #00FF00;
+    border: 1px #00FF00;
+    padding: 12px 24px 12px 24px;
+    border-radius: 4px;
+    font-size: 15px;    
+}
+form input{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px soild #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#left img{
+    width: 100%;
+    height: 800px;
+}
+#right img{
+    width: 100%;
+    height: 800px;
+}
+.image img{
+    border-radius: 30px;
+}
+
