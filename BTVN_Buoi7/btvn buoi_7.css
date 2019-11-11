@@ -1,0 +1,136 @@
+body{
+    font-family: Arial, Tahoma;
+    font-size: 17px;
+}
+ 
+#main{
+    width: 100%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu{
+    line-height: 60px;
+    background: white;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    box-shadow: -5px 10px 10px 5px rgb(207, 198, 198);
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu a{
+    color:black;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 95%;
+}
+.menu a:hover{
+    color: red;
+    text-decoration: none;
+}
+.button{
+    border: 1px solid;
+    padding: 7px 7px;
+    background: whitesmoke;
+    text-decoration: none;
+}
+#head{
+    margin-bottom:150px;
+
+}
+#content{
+    font-size: 20px;
+    color: rgb(145, 143, 143);
+}
+#footer{
+    width: 100%;
+    height: 100px;
+    clear: both;
+    background-color:gray;
+    text-align: center;
+    padding-top: 70px;
+}
+.main-content-center{
+    margin-top: -100px;
+}
+.content-main {
+    height: 65%;
+    width: auto;
+    margin: 0 1%;
+    float: left;
+    margin-top: 100px
+}
+.paragraph-1, .paragraph-2, form {
+    width: 60%;
+    height: 100%
+}
+.paragraph-1 {
+    float: right;
+    height: 300px;
+}
+.paragraph-2 {
+    float: left;
+    height: 300px;
+}
+.paragraph-1 ~ .image {
+    float: left;
+}
+.paragraph-2 ~ .image {
+    float: right
+}
+form {
+    font-weight: 600
+}
+span {
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.paragraph-2 button{
+    padding: 12px 24px 12px 24px;
+    border-radius: 4px;  
+}
+form input{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px soild #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#left img{
+    width: 100%;
+    height: 900px;
+}
+#right img{
+    width: 100%;
+    height: 900px;
+}
+#center{
+    width: 70%;
+    margin: auto;
+}
+.menu ul li{
+    width: 130px;
+}
+#link{
+    line-height: 60px;
+    top: 0px;
+    width: 100%;
+}
+#link a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 95%;
+    font-size: 30px;
+    color: gainsboro;
+}
+#link a:hover{
+    color: red;
+}
