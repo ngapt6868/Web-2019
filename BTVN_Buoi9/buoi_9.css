@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+}
+.left{
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+.right{
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+.menu{
+    margin-top: 10%;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.download button {
+    padding: 20px 50px;
+    color: black;
+    background: rgb(206, 201, 201);
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.download button:hover{
+    background: rgb(145, 143, 143);
+}
+.center{
+    height: 20%;
+    margin-top: 5%;
+    padding: 0 20px;
+    color: grey;
+}
+.anh{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+}
+.anh1{
+    width: 50%;
+}
+.anh2{
+    width: 49%;
+    padding: 0 20px;
+}
+.about{
+    font-size: 20px;
+    margin-top: 5%;
+}
+.my{
+    margin-top: 5%;
+}
