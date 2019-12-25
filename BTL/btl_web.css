@@ -1,0 +1,29 @@
+.footer{
+    clear: both;
+    background: white;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding-left: 15%;
+    font-size: 14px;
+}
+.footer1{
+    width: 13%;
+    height: 100%;
+    float: left;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.footer1 a{
+    text-decoration: none;
+    color: #757d85;
+}
+.footer1 a:hover{
+    text-decoration: underline;
+}
+.dn{
+    padding: 5%;
+    text-align: center;
+}
